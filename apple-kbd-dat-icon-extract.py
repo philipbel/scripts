@@ -11,7 +11,7 @@ import optparse
 import sys
 import os
 
-prog = sys.argv[0]
+prog = os.path.basename(sys.argv[0])
 
 DEFAULT_DATFILE = "/System/Library/Keyboard Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/AppleKeyboardLayouts-L.dat"
 
