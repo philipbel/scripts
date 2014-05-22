@@ -32,3 +32,21 @@ output directory.
 ./apple-kbd-dat-icon-extract.py: Writing icon file /tmp/icons/icon132.icns
 %
 ```
+
+# ipernity-downloader
+
+Ipernity download script (uses their Shell API).
+
+## Usage
+
+```
+usage: ipernity-downloader.py [-h] [-v] --key KEY --secret SECRET -o OUTPUT
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --verbose         Be verbose
+  --key KEY             Ipernity API key
+  --secret SECRET       Ipernity API secret
+  -o OUTPUT, --output OUTPUT
+                        Download output directory
+```
